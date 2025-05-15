@@ -1,11 +1,11 @@
-- 👋 Hi, I’m @estphilip
-- 🎯Data Analyst | Storyteller with Data | Excel • Power BI • SQL • Python
+- 👋 Hi, I’m Esther Okwute
+- Data Analyst | Storyteller with Data | Excel • Power BI • SQL • Python
 Welcome to my GitHub! I use this space to share real-world data projects,dashboards, and analyses that turn raw data into actionable insights.From business operations to entertainment analytics, I love asking the "why" behind the numbers.
-🚀 Current Focus
+Current Focus
 - 📊 Participating in the #30DaysOfDataWithAnnie
 - ✍🏽 Documenting real business data problems and visual solutions
 - 📚 Sharpening skills in Power BI, SQL, and Python (pandas, matplotlib)
-🧠 What I Do
+-  What I Do
 - Clean and transform messy datasets  
 - Build interactive dashboards that help stakeholders make decisions  
 - Use storytelling to communicate complex findings simply and clearly  
