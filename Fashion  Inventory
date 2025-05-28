@@ -1,0 +1,103 @@
+##Fashion Stock Flow & Trends Dashboard
+
+###Problem Statement / Business Objective
+
+Fashion retailers often struggle with stockouts and overstock. Products that customers want sell out too fast, while less desirable ones pile up in storage. This leads to missed sales, wasted inventory, and frustrated customers.
+This project aims to help fashion businesses:
+
+ Forecast product demand
+ Reduce overstock and stockouts
+ Align discount strategies with actual buyer behavior
+ Understand sales trends across genders and product types
+
+###About the Dataset
+Source: Fashion retail product listing from a synthetic/realistic inventory sample.
+Size: 15,000+ rows
+Key Columns:
+
+   `Product ID`, `Brand`, `Product Type`, `Dominant Material`, `Dominant Color`
+   `Size`, `Variant Price`, `Compare at Price`, `Ideal For` (Men/Women/Boys/Girls)
+   Custom columns created: `Discount`, `Discount%`, `Stock Flag` (1 = In stock, 0 = Out of Stock, -1 = Unknown)
+
+###Data Cleaning Process
+
+Done in Power BI, Excel, and Python:
+
+1. Standardized Date Formats – Unified date styles for consistency.
+2. Removed Visual Formatting – Cleared Excel-based highlights and colors.
+3. Filled Missing Data – Used placeholder values like “Unknown Color” to maintain row integrity.
+4. Normalized Size Values – Separated text and numeric sizes into separate columns.
+5. Created Composite Columns – Combined Date and Time into `DateTime` field.
+6. Cleaned Text Columns – Trimmed spaces, corrected casing, and removed symbols.
+7. Created Custom Fields – Added `Discount`, `Discount%`, and `Stock Flag`.
+8. Removed Duplicates – De-duplicated records using `Product ID`.
+
+Insight: Cleaning is an iterative and strategic task, not just cosmetic. It must align with business questions.
+
+###Exploratory Data Analysis
+
+Performed in Power BI, Python (Pandas, Seaborn), and Excel:
+
+####Key Statistical Tests:
+
+ Correlation Analysis
+ Linear Regression
+ ANOVA (across gender groups)
+
+####Key Findings:
+
+1. Discount vs Compare Price → Strong positive correlation (r ≈ 0.77)
+2. Regression Coefficients → Every unit increase in discount boosts compare price by \~1.22 units (p < 0.001)
+3. Discount vs Stock Status → Weak correlation (\~0.02), hinting other factors like product appeal matter more
+
+---
+
+###Dashboard Summary
+
+Built with Power BI, titled Fashion Stock Flow & Trends Dashboard, answering 3 key business questions:
+
+ What sells fast (brand/type/color) vs what doesn’t?
+ How do discounts and pricing impact behavior across demographics?
+ Can we forecast demand better using color, material, or product trends?
+
+###Visual Highlights:
+
+ Bar Charts for out-of-stock analysis
+ Line & Combo Charts to show discount patterns
+ Donut Charts for material distribution
+ Cards for metrics like average discount, stock levels
+ Interactive Filters by demographic (Men, Women, Boys, Girls)
+
+###Insights & Recommendations
+
+ Segmented Discounts Work Better: A blanket discount strategy may not suit all product types.
+ Women's Products = Seasonal Peaks: Particularly August–September, often driven by discount events.
+ Stock Planning Should Be Demographic-Aware: Consider who the product is for when predicting stock needs.
+ Discount ≠ Urgency: High discounts don’t always guarantee quicker stock movement.
+###Tools Used
+
+ Power BI – Visualizations and DAX
+ Excel – Initial data profiling and transformation
+ Python (Pandas) – Statistical tests and exploratory analysis
+ GitHub – Documentation and versioning
+ Canva (optional) – Used to design dashboard thumbnails (if applicable)
+###Lessons Learned
+
+ Clean Data = Better Questions: Business value starts at the cleaning stage.
+ Documentation Forces Clarity: Writing this helped clarify what I truly discovered.
+ Collaboration Adds Value: Thanks to teammate [@Christopher](#) for feedback during data cleaning stages.
+
+##How to Access the Dashboard
+
+
+###What’s Next?
+
+Looking to:
+
+ Apply this model to real-life inventory datasets
+ Collaborate with fashion startups, SMEs, or NGOs
+ Continue building domain-focused dashboards in retail, FMCG, and more
+
+###Call to Action
+
+If you’re a brand, business owner, or NGO needing insight-driven stock management, feel free to reach out for collaboration!
