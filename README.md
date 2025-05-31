@@ -15,7 +15,7 @@ Welcome to my GitHub! I use this space to share real-world data projects,dashboa
 - 🧱 [Stamped Concrete Delay Analysis](Real business problem: tracking delays)
   ## Let's Connect!
 <p align="left">
-  <a href="https://www.linkedin.com/in/your-okwute-esther" target="_blank">
+  <a href="https://www.linkedin.com/in/your-okwute esther" target="_blank">
     <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="40" height="40"/>
   </a>    <a href="https://twitter.com/Onyxstellar07?t=12gX4vLfbrQIljUhYCgXtA&s=09)" target="_blank">
     <img src="https://img.icons8.com/ios-filled/50/000000/twitterx.png" alt="X (Twitter)" width="40" height="40"/>
