@@ -16,10 +16,8 @@
   ## Let's Connect!
   <p align="center">
   <a href="https://www.linkedin.com/in/okwute-esther?" target="_blank">
-    <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="40" height="40"/>
-  </a>    <a href="https://twitter.com/Onyxstellar07?t=12gX4vLfbrQIljUhYCgXtA&s=09)" target="_blank">
-    <img src="https://img.icons8.com/ios-filled/50/000000/twitterx.png" alt="X (Twitter)" width="40" height="40"/>
-  </a>    <a href="mailto:estherokwute4@gmail.com" target="_blank">
+    <img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn" width="40" height="40"/></a>    <a href="https://twitter.com/Onyxstellar07?t=12gX4vLfbrQIljUhYCgXtA&s=09)" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=ffffff.png" alt="X (Twitter)" width="40" height="40"/></a>    <a href="mailto:estherokwute4@gmail.com" target="_blank">
     <img src="https://img.icons8.com/color/48/gmail-new.png" alt="Gmail" width="40" height="40"/>
   </a>  
   
